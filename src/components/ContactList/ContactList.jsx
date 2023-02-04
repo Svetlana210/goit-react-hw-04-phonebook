@@ -17,7 +17,6 @@ const ContactList = ({ contacts, deleteContact }) => {
         <ul className={styles.list}>{elements} </ul>
       ) : (
         <h2>
-          {' '}
           Add some contacts <br /> Your phonebook is empty
         </h2>
       )}
